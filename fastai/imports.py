@@ -8,7 +8,7 @@ from abc import abstractmethod
 from glob import glob, iglob
 from concurrent.futures import ThreadPoolExecutor, ProcessPoolExecutor
 from itertools import chain
-from functools import partial
+from functools import partial, update_wrapper
 from collections import Iterable, Counter, OrderedDict
 from isoweek import Week
 from pandas_summary import DataFrameSummary
